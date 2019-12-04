@@ -81,9 +81,7 @@
     </encoder>
   </appender>
 
-  <logger level="ERROR" name="org.mongodb.morphia.query.QueryValidator">
-    <appender-ref ref="FILE-ERROR"/>
-  </logger>
+  
 
   <logger level="ERROR" name="springfox.documentation.schema.property.ModelPropertiesKeyGenerator">
     <appender-ref ref="FILE-ERROR"/>
