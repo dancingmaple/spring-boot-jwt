@@ -88,6 +88,13 @@
 		</dependency>
 	</dependencies>
 
+        <repositories>
+             <repository>
+                 <id>abcd</id> 
+                 <url>https://maven.aliyun.com/repository/public</url>
+             </repository>
+        </repositories>
+
 	<build>
 		<plugins>
 			<plugin>
